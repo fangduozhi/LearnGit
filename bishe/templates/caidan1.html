@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/caidan.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/gwc.css">
+    <link rel="stylesheet" type="text/css" href="/static/showfood.css">
+    <link rel="stylesheet" type="text/css" href="/static/button.css">
+    <script type="text/javascript" src="/static/jquery.min.js"></script>
+
+<style>
+        .red_a{
+            color: red;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body background="" >
+<div class="nav">
+    <div class="wrap">
+
+        <ul class="nav_ul2">
+            <li><a href="{% url 'zy' %}">菜单<span>|</span></a></li>
+            <li><a href="{% url 'rc' %}">热菜<span>|</span></a></li>
+            <li><a href="{% url 'lc' %}">凉菜<span>|</span></a></li>
+            <li><a href="{% url 'hx' %}">海鲜<span>|</span></a></li>
+            <li><a href="{% url 'tg' %}">汤羹<span>|</span></a></li>
+            <li><a href="{% url 'zs' %}">主食<span>|</span></a></li>
+            <li><a href="{% url 'xc' %}">小吃<span>|</span></a></li>
+            <li><a href="{% url 'js' %}">饮品酒水<span>|</span></a></li>
+
+        </ul>
+        <button style="color: white;float: right;height: 30px;width: 100px;background-color: coral" type="button" onclick="javascript:window.location.href='{% url 'gwc' %}'" >查看购物车</button>
+    </div>
+</div>
+
+<div class="juzhong">
+    {% for food in foodlist %}
+        <form action="/addshop/" method="post" id="f_{{ food.fid }}">
+           {% csrf_token %}
+        <li>
+            <a class="box1">{{ food.fname }}{{ food.price }}
+                <img src="/static/{{ food.gimg | cut:'static/images' }}" width="300px" height="300px"></a>
+            <div class="one">
+                <input type="text"  name='snum' class="num" id="id_{{ food.fid }}" value="1"/>
+                <input type="hidden" name="sid" value="{{ food.fid }}">
+                <input type="button" value="+" class="add" name="sid" onclick="do_add('id_{{ food.fid }}')"/>
+                <input type="button" value="-" class="del" onclick="do_del('id_{{ food.fid }}')"/>
+            </div>
+
+            <button  style="width: 100px;height: 45px;background-color: cornflowerblue;color: white"  type="button" id="id_{{ food.fid }}"  onclick="addshop('f_{{ food.fid }}'); ">加入购物车
+            </button>
+
+        </li>
+        </form>
+    {% endfor %}
+
+</div>
+<p>
+        {% if foodlist.has_previous %}
+        <a href="/caidan/?nums={{ foodlist.previous_page_number }}">上一页</a>
+        {% endif %}
+
+        {% for page in pagelist %}
+        <a href="/caidan/?nums={{ page }}" {% if currentNum == page %} class="red_a" {% endif %}>{{ page }}</a>&emsp;
+        {% endfor %}
+
+        {% if foodlist.has_next %}
+        <a href="/caidan/?nums={{ foodlist.next_page_number }}">下一页</a>
+        {% endif %}
+    </p>
+
+<script>
+
+    function do_add(id) {
+        num = document.getElementById(id)
+
+        num.value = parseInt(num.value) + 1
+
+
+
+    }
+
+    function do_del(id) {
+        num = document.getElementById(id)
+
+        if (num.value > 1) {
+            num.value = parseInt(num.value) - 1
+        }
+
+    }
+    function addshop(id) {
+
+        num = document.getElementById(id);
+        num.submit()
+        alert('成功加入购物车')
+    }
+
+</script>
+</body>
+</html>

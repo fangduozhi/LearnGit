@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的订单_未完成</title>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+{#<script src="../js/jquery1.42.min.js" type="text/javascript"></script>#}
+{#<script src="../js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>#}
+{#<script src="../js/publicNav.js" type="text/javascript"></script>#}
+{#<script src="../js/index.js" type="text/javascript"></script>#}
+<link href="/static/myorder.css" rel="stylesheet" type="text/css" />
+
+<link href="/static/base.css" rel="stylesheet" type="text/css" />
+    <link href="/static/public.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="/static/base.css"/>
+        <script type="text/javascript" src="/static/jquery_cart.js"></script>
+        <link rel="stylesheet" type="text/css" href="/static/buyConfirm.css" />
+		<script src="/static/jquery-1.11.1.min.js" type="text/javascript"></script>
+   		 <script src="/static/unslider.min.js" type="text/javascript"></script>
+  	     <script src="/static/index.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+window.onload = function(){
+new tab('test4-input-input_tab1-input_tab2', '-');
+}
+function tab(o, s, cb, ev){ //tab换类
+var $ = function(o){return document.getElementById(o)};
+var css = o.split((s||'_'));
+if(css.length!=4)return;
+this.event = ev || 'onclick';
+o = $(o);
+if(o){
+this.ITEM = [];
+o.id = css[0];
+var item = o.getElementsByTagName(css[1]);
+var j=1;
+for(var i=0;i<item.length;i++){
+if(item[i].className.indexOf(css[2])>=0 || item[i].className.indexOf(css[3])>=0){
+if(item[i].className == css[2])o['cur'] = item[i];
+item[i].callBack = cb||function(){};
+item[i]['css'] = css;
+item[i]['link'] = o;
+this.ITEM[j] = item[i];
+item[i]['Index'] = j++;
+item[i][this.event] = this.ACTIVE;
+}
+}
+return o;
+}
+}
+tab.prototype = {
+ACTIVE:function(){
+var $ = function(o){return document.getElementById(o)};
+this['link']['cur'].className = this['css'][3];
+this.className = this['css'][2];
+try{
+$(this['link']['id']+'_'+this['link']['cur']['Index']).style.display = 'none';
+$(this['link']['id']+'_'+this['Index']).style.display = 'block';
+}catch(e){}
+this.callBack.call(this);
+this['link']['cur'] = this;
+}
+}
+</script>
+</head>
+
+<body>
+
+ <!--顶部快捷菜单-->
+    <div class="shortcut_v2013 alink_v2013">
+        <div class="w">
+            <ul class="fl 1h">
+                <li class="fl">
+                </li>
+                <li class="fl"><i class="shortcut_s"></i></li>
+                <li class="fl"><div class="menu_hd">您好，欢迎来到饭店！</div></li>
+
+            </ul>
+            <ul class="fr 1h">
+                <li class="fl"><div class="menu_hd"><a href="javascript:window.location.href='/myorder/'">我的订单</a></div></li>
+                <li class="fl"><i class="shortcut_s"></i></li>
+                <li class="fl"><div class="menu_hd"><a href="javascript:window.location.href='/caidan/'">菜品欣赏</a></div></li>
+                <li class="fl"><i class="shortcut_s"></i></li>
+                <li class="fl"><div class="menu_hd"><a href="javascript:window.location.href='/showshop/'">我的购物车</a></div></li>
+{#                <li class="fl"><i class="shortcut_s"></i></li>#}
+                <li class="fl">
+
+                </li>
+            </ul>
+            <span class="clr"></span>
+        </div>
+    </div>
+
+  <div class="shopCar">
+    <ul class="shopCont">
+      <li class="webnav">
+
+        <span class="total-num-box" id="J_total_num_box">
+          <b class="total-num J_cart_total_num" id="showTotalQty"></b>
+          <span class="total-num-bg-box">
+            <em></em>
+            <i></i>
+          </span>
+        </span>
+
+{#        <strong>#}
+{#          <a href="javascript:;" class="shopClick down-hover"><span>购物车</span></a>#}
+{#        </strong>#}
+
+      </li>
+    </ul>
+  </div>
+  <script type="text/javascript" src="../js/shopCar.js"></script>
+  <!--*********购物车**********************-->
+</div>
+<!--头部top]]-->
+<!--********* [[导航菜单**********************-->
+  <!--菜单划过显示隐藏-->
+  <script type="text/javascript">
+    $(function(){
+        $('#nav').hover(function(){
+            $('.tit').show();
+        },function(){
+            $('.tit').hide();
+
+        })
+    })
+    </script>
+
+<script type="text/javascript">
+  $(function(){
+    $("#nav .tit").slide({
+      type:"menu",
+      titCell:".mod_cate",
+      targetCell:".mod_subcate",
+      delayTime:0,
+      triggerTime:10,
+      defaultPlay:false,
+      returnDefault:true
+    })
+  })
+</script>
+
+	<div class="userOrder w1000">
+		<!--[[menuA-->
+		<div class="menuA">
+			<h1 class="m_top_tit"><a href="javascript:;">我的交易</a></h1>
+			<h2 class="my_tt"><i class=""></i>交易管理</h2>
+      <ul class="base_list" style="display: block;">
+        <li class="selected">
+          <a href="order.html">我的订单</a>
+        </li>
+        <li>
+          <a href="comment.html">订单管理</a>
+        </li>
+      </ul>
+      <h2 class="my_tt"><i class=""></i>账户管理</h2>
+      <ul class="base_list" style="display: block;">
+        <li  class="">
+          <a href="userInfo.html">个人资料</a>
+        </li>
+        <li>
+          <a href="accountSec.html">账户安全</a>
+        </li>
+        <li  >
+          <a href="addr.html">收货地址</a>
+        </li>
+      </ul>
+
+		</div>
+		<!--menuA]]-->
+		<div class="contB ">
+      <!--[[我的订单-->
+      <div class="">
+			 <div class="my-cont">
+          <div class="cont-tit">
+            <h2>我的订单</h2>
+          </div>
+          <div class="user_tab_all">
+              <div class="user_tab_menu order-status">
+                <span class="pre_tit">订单提醒：</span>
+                <ul>
+                  <li ><a href="javascript:window.location.href='/myorder/';">所有订单</a></li>
+                  <li class="selected"><a href="javascript:window.location.href='/orderwwc/'">未完成</a></li>
+                  <li><a href="javascript:window.location.href='/orderywc/';">已完成</a></li>
+                </ul>
+              </div>
+              {% for j in orderlist %}
+              <div class="infro_user_box">
+                 <div>
+                    <div class="order_box">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" class="tb_news" >
+                        <thead>
+                        <tr>
+                          <th class="g_infro">商品信息</th>
+                          <th class="g_money">订单金额</th>
+                          <th class="g_opt">订单状态</th>
+                          <th class="g_chos">订单操作</th>
+                        </tr>
+                      </thead>
+
+
+
+
+
+
+
+                      <tbody>
+                        <tr class="hr">
+                          <td colspan="4"><div style="padding-left:20px;">订单编号：<em>{{ orderid }}</em>
+                            <span class="dealtime" title="2014-10-18 21:59">订单时间：2014-10-19 11:38:05</span></div>
+                         </td>
+                        </tr>
+                      </tbody>
+                  {% for i in j %}
+                        <tbody>
+                        <tr>
+                          <td style="text-align:left;"><a class="pro-img" href="javascript:;">
+                            <img src="{{ i.o_img }}" width="60px" height="60px"></a></td>
+                            <span class="way">{{ i.oshopname }}</span>
+                          <td>
+                              <span class="price">{{ i.oprice }}</span>
+                            <span class="price">{{ i.ocount }}</span>
+                            <span class="price">{{ i.oammount }}</span>
+                          </td>
+
+                          <td>
+                            <div class="item-operate" style="z-index: 1;">{{ i.state }}</div>
+                          </td>
+                          {% endfor %}
+                        </tr>
+                      </tbody>
+                      </table>
+                    </div>
+                 </div>
+
+{% endfor %}
+
+              <script type="text/javascript" >
+            //<![CDATA[
+              $(function(){
+                  var $div_li =$(".user_tab_menu ul li");
+                  $div_li.click(function(){
+                  $(this).addClass("selected")            //当前<li>元素高亮
+                       .siblings().removeClass("selected");  //去掉其它同辈<li>元素的高亮
+                        var index =  $div_li.index(this);  // 获取当前点击的<li>元素 在 全部li元素中的索引。
+                  $(".infro_user_box > div")    //选取子节点。不选取子节点的话，会引起错误。如果里面还有div
+                      .eq(index).show()   //显示 <li>元素对应的<div>元素
+                      .siblings().hide(); //隐藏其它几个同辈的<div>元素
+                })
+              })
+            //]]>
+            </script>
+       </div>
+      <!--我的订单]]-->
+    	</div>
+    </div>
+
+
+<!--底层foot]]-->
+</body>
+</html>

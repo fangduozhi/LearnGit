@@ -1,0 +1,5 @@
+body,html{text-align:center;}
+    .one{border:1px solid #ccc;display: inline-block;position:relative;margin-top:30px;}
+    .num{width: 60px;height: 38px;}
+    .add{width:22px;height:22px;position:absolute;right:0;top:0;}
+    .del{width: 22px;height: 22px;position:absolute;right:0;bottom:0;}

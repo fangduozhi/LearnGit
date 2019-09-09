@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5414d4c0-a719-4689-9652-7b14d25c12d0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/caidan1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3102">
+              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/carts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bishe/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishe/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+              <folding>
+                <element signature="e#306#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1089">
+              <caret line="33" column="89" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="89" />
+              <folding>
+                <element signature="e#339#406#0#HTML" expanded="true" />
+                <element signature="e#864#890#0#HTML" expanded="true" />
+                <element signature="e#1096#1164#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>staticfile</find>
+      <find>fontawesome-webfont.woff2</find>
+      <find>sp</find>
+      <find>reserve.png</find>
+      <find>reserve.</find>
+      <find>jpg</find>
+      <find>reserve</find>
+      <find>请选择地址</find>
+      <find>images/</find>
+      <find>input</find>
+      <find>son</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/static/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/static</dir>
+      <dir>$PROJECT_DIR$/shop/RSA密钥</dir>
+    </dirStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/food/admin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/templates/index.html" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/food/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bishe/settings.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/login/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/order/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/food/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/templates/register.html" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/templates/food_js.html" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/order/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bishe/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dizhi/views.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/user.html" />
+        <option value="$PROJECT_DIR$/user/urls.py" />
+        <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/static/js/checkout.min.js" />
+        <option value="$PROJECT_DIR$/templates/order.html" />
+        <option value="$PROJECT_DIR$/templates/tiaozhuan.html" />
+        <option value="$PROJECT_DIR$/login/admin.py" />
+        <option value="$PROJECT_DIR$/food/apps.py" />
+        <option value="$PROJECT_DIR$/order/apps.py" />
+        <option value="$PROJECT_DIR$/static/css/order.css" />
+        <option value="$PROJECT_DIR$/templates/base_site.html" />
+        <option value="$PROJECT_DIR$/address/models.py" />
+        <option value="$PROJECT_DIR$/dizhi/models.py" />
+        <option value="$PROJECT_DIR$/dizhi/apps.py" />
+        <option value="$PROJECT_DIR$/dizhi/admin.py" />
+        <option value="$PROJECT_DIR$/login/apps.py" />
+        <option value="$PROJECT_DIR$/dizhi/__init__.py" />
+        <option value="$PROJECT_DIR$/order/__init__.py" />
+        <option value="$PROJECT_DIR$/food/admin.py" />
+        <option value="$PROJECT_DIR$/food/models.py" />
+        <option value="$PROJECT_DIR$/dizhi/migrations/urls.py" />
+        <option value="$PROJECT_DIR$/dizhi/urls.py" />
+        <option value="$PROJECT_DIR$/bishe/urls.py" />
+        <option value="$PROJECT_DIR$/templates/dingdan.html" />
+        <option value="$PROJECT_DIR$/templates/text.html" />
+        <option value="$PROJECT_DIR$/templates/food_hx.html" />
+        <option value="$PROJECT_DIR$/templates/jiesuan.html" />
+        <option value="$PROJECT_DIR$/order/urls.py" />
+        <option value="$PROJECT_DIR$/food/views.py" />
+        <option value="$PROJECT_DIR$/templates/address.html" />
+        <option value="$PROJECT_DIR$/dizhi/views.py" />
+        <option value="$PROJECT_DIR$/templates/user_address.html" />
+        <option value="$PROJECT_DIR$/order/admin.py" />
+        <option value="$PROJECT_DIR$/order/models.py" />
+        <option value="$PROJECT_DIR$/templates/myorder.html" />
+        <option value="$PROJECT_DIR$/templates/shouye.html" />
+        <option value="$PROJECT_DIR$/shop/views.py" />
+        <option value="$PROJECT_DIR$/templates/orderywc.html" />
+        <option value="$PROJECT_DIR$/templates/orderwwc.html" />
+        <option value="$PROJECT_DIR$/templates/user_order.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/order/views.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/login/models.py" />
+        <option value="$PROJECT_DIR$/bishe/settings.py" />
+        <option value="$PROJECT_DIR$/login/urls.py" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/templates/cart.html" />
+        <option value="$PROJECT_DIR$/static/js/carts.js" />
+        <option value="$PROJECT_DIR$/bishe/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="931" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/showfood" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/images/food_rc" />
+      <recent name="$PROJECT_DIR$/static/images/food_lc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="bishe" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bishe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bishe.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5414d4c0-a719-4689-9652-7b14d25c12d0" name="Default Changelist" comment="" />
+      <created>1554614983032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554614983032</updated>
+      <workItem from="1554614984446" duration="4874000" />
+      <workItem from="1554686025600" duration="2104000" />
+      <workItem from="1554693101034" duration="1556000" />
+      <workItem from="1554706909664" duration="13330000" />
+      <workItem from="1554772861691" duration="3335000" />
+      <workItem from="1554777532071" duration="7726000" />
+      <workItem from="1554800883854" duration="2796000" />
+      <workItem from="1554807720170" duration="7686000" />
+      <workItem from="1554859316663" duration="10282000" />
+      <workItem from="1554893496602" duration="4139000" />
+      <workItem from="1554899634056" duration="3000" />
+      <workItem from="1554899639917" duration="947000" />
+      <workItem from="1554950076048" duration="1354000" />
+      <workItem from="1555308639842" duration="1282000" />
+      <workItem from="1555310268497" duration="320000" />
+      <workItem from="1555310621679" duration="1041000" />
+      <workItem from="1555311915129" duration="11869000" />
+      <workItem from="1555378632208" duration="15892000" />
+      <workItem from="1555476032284" duration="629000" />
+      <workItem from="1555505594589" duration="1065000" />
+      <workItem from="1555541189855" duration="66000" />
+      <workItem from="1555727949752" duration="452000" />
+      <workItem from="1555761589053" duration="1980000" />
+      <workItem from="1555838059544" duration="155000" />
+      <workItem from="1555894062616" duration="9168000" />
+      <workItem from="1555937388702" duration="46000" />
+      <workItem from="1555980963517" duration="2962000" />
+      <workItem from="1555985282735" duration="9014000" />
+      <workItem from="1556086017652" duration="2361000" />
+      <workItem from="1556155739557" duration="16246000" />
+      <workItem from="1556247117826" duration="10970000" />
+      <workItem from="1556268519749" duration="126000" />
+      <workItem from="1556330174232" duration="3578000" />
+      <workItem from="1556334145342" duration="227000" />
+      <workItem from="1556413746930" duration="15342000" />
+      <workItem from="1556436096502" duration="1213000" />
+      <workItem from="1556443689102" duration="970000" />
+      <workItem from="1556517607251" duration="306000" />
+      <workItem from="1556612092707" duration="99000" />
+      <workItem from="1556627511321" duration="165000" />
+      <workItem from="1556673720281" duration="344000" />
+      <workItem from="1556758261757" duration="4232000" />
+      <workItem from="1556786614965" duration="6667000" />
+      <workItem from="1556860251062" duration="1152000" />
+      <workItem from="1556936409866" duration="7000" />
+      <workItem from="1556936419293" duration="54000" />
+      <workItem from="1556936489264" duration="8689000" />
+      <workItem from="1556949654509" duration="69000" />
+      <workItem from="1556949737009" duration="254000" />
+      <workItem from="1556950069687" duration="8384000" />
+      <workItem from="1556961243788" duration="1425000" />
+      <workItem from="1556970595032" duration="317000" />
+      <workItem from="1557017418699" duration="9059000" />
+      <workItem from="1557030027838" duration="6069000" />
+      <workItem from="1557044311351" duration="6694000" />
+      <workItem from="1557055542495" duration="1306000" />
+      <workItem from="1557120615135" duration="455000" />
+      <workItem from="1557133873329" duration="671000" />
+      <workItem from="1557190091745" duration="5914000" />
+      <workItem from="1557200488033" duration="15159000" />
+      <workItem from="1557275187124" duration="12424000" />
+      <workItem from="1557366228037" duration="23903000" />
+      <workItem from="1557410282997" duration="2981000" />
+      <workItem from="1557447637330" duration="6690000" />
+      <workItem from="1557466954062" duration="747000" />
+      <workItem from="1557470136627" duration="2758000" />
+      <workItem from="1557473190841" duration="2006000" />
+      <workItem from="1557475322587" duration="15599000" />
+      <workItem from="1557532668251" duration="1466000" />
+      <workItem from="1557534247827" duration="1380000" />
+      <workItem from="1557535637681" duration="25000" />
+      <workItem from="1557535678480" duration="6611000" />
+      <workItem from="1557542914141" duration="205000" />
+      <workItem from="1557550041048" duration="4369000" />
+      <workItem from="1557795180001" duration="108000" />
+      <workItem from="1557796068810" duration="6000" />
+      <workItem from="1557796556171" duration="3000" />
+      <workItem from="1557796621547" duration="512000" />
+      <workItem from="1557815607589" duration="2894000" />
+      <workItem from="1557893185988" duration="7049000" />
+      <workItem from="1557928004185" duration="307000" />
+      <workItem from="1557970522423" duration="8907000" />
+      <workItem from="1557990929174" duration="15275000" />
+      <workItem from="1558011298868" duration="371000" />
+      <workItem from="1558054765849" duration="11648000" />
+      <workItem from="1558164506012" duration="1982000" />
+      <workItem from="1558238750724" duration="10283000" />
+      <workItem from="1558268218530" duration="1009000" />
+      <workItem from="1558312737527" duration="2510000" />
+      <workItem from="1558330115290" duration="254000" />
+      <workItem from="1558334630275" duration="2787000" />
+      <workItem from="1558353297231" duration="3081000" />
+      <workItem from="1558404348162" duration="11114000" />
+      <workItem from="1558493094722" duration="972000" />
+      <workItem from="1558594314536" duration="305000" />
+      <workItem from="1558873310422" duration="23000" />
+      <workItem from="1559049802248" duration="1426000" />
+      <workItem from="1559191328118" duration="334000" />
+      <workItem from="1559194411027" duration="8685000" />
+      <workItem from="1559203830016" duration="484000" />
+      <workItem from="1559207972581" duration="2223000" />
+      <workItem from="1559210328635" duration="9522000" />
+      <workItem from="1559290197058" duration="1328000" />
+      <workItem from="1559303273541" duration="693000" />
+      <workItem from="1559322554288" duration="60000" />
+      <workItem from="1559366363223" duration="953000" />
+      <workItem from="1559372000942" duration="3988000" />
+      <workItem from="1559437059136" duration="487000" />
+      <workItem from="1559544393304" duration="566000" />
+      <workItem from="1559628438143" duration="288000" />
+      <workItem from="1559651574692" duration="1565000" />
+      <workItem from="1559706546786" duration="372000" />
+      <workItem from="1559794468358" duration="215000" />
+      <workItem from="1560043319410" duration="1374000" />
+      <workItem from="1560666487483" duration="235000" />
+      <workItem from="1560753803741" duration="205000" />
+      <workItem from="1561707510746" duration="83000" />
+      <workItem from="1561712469791" duration="372000" />
+      <workItem from="1561862354704" duration="647000" />
+      <workItem from="1561945375385" duration="102000" />
+      <workItem from="1561951538868" duration="7000" />
+      <workItem from="1561984873083" duration="29000" />
+      <workItem from="1562033959429" duration="627000" />
+      <workItem from="1562035122025" duration="1094000" />
+      <workItem from="1562037185201" duration="1125000" />
+      <workItem from="1562058353814" duration="202000" />
+      <workItem from="1562064280681" duration="668000" />
+      <workItem from="1562065677585" duration="10000" />
+      <workItem from="1562065764685" duration="532000" />
+      <workItem from="1562066480831" duration="1265000" />
+      <workItem from="1562070595235" duration="1973000" />
+      <workItem from="1562153863732" duration="4582000" />
+      <workItem from="1562206536318" duration="1113000" />
+      <workItem from="1562229806976" duration="27000" />
+      <workItem from="1562393906363" duration="353000" />
+      <workItem from="1562566935730" duration="1852000" />
+      <workItem from="1562571134104" duration="1640000" />
+      <workItem from="1562574929437" duration="3899000" />
+      <workItem from="1562589033338" duration="82000" />
+      <workItem from="1562589416932" duration="192000" />
+      <workItem from="1562590866533" duration="614000" />
+      <workItem from="1562631382194" duration="84000" />
+      <workItem from="1562633923987" duration="503000" />
+      <workItem from="1562634749745" duration="2288000" />
+      <workItem from="1562640542345" duration="930000" />
+      <workItem from="1562676177519" duration="1111000" />
+      <workItem from="1562739744498" duration="49000" />
+      <workItem from="1562741385794" duration="4545000" />
+      <workItem from="1562806338364" duration="4595000" />
+      <workItem from="1563002999185" duration="565000" />
+      <workItem from="1563182239337" duration="1038000" />
+      <workItem from="1563258954089" duration="3178000" />
+      <workItem from="1563334041920" duration="3620000" />
+      <workItem from="1567389564422" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="488378000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926794" visible="true" weight="0.13542494" />
+      <window_info id="Structure" order="1" sideWeight="0.50073206" side_tool="true" weight="0.24542125" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.2632653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26463103" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.28229666" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" visible="true" weight="0.47372264" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49926794" visible="true" weight="0.15506716" />
+      <window_info id="Structure" order="1" sideWeight="0.50073206" side_tool="true" weight="0.24542125" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.31698564" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26463103" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.28229666" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" visible="true" weight="0.14832535" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>loads('[{&quot;price&quot;:￥8.00,&quot;s_price&quot;:&quot;￥24&quot;},{&quot;price&quot;:￥10.00,&quot;s_price&quot;:&quot;￥10&quot;}]')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'[{&quot;price&quot;:￥8.00,&quot;s_price&quot;:&quot;￥24&quot;},{&quot;price&quot;:￥10.00,&quot;s_price&quot;:&quot;￥10&quot;}]'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'['+goods[:-1]+']'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loads('['+goods[:-1]+']')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>int(b['s_price'][1:])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b['s_price'][1:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b['s_price']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b.s_price</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dizhi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myorder.html" />
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pymysql/err.py" />
+    <entry file="file://$PROJECT_DIR$/templates/user_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1685">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dizhi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishe/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#221#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dizhi/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishe/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/orderwwc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/notebook/static/notebook/js/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="926" column="40" selection-start-line="926" selection-start-column="40" selection-end-line="926" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1447" column="22" selection-start-line="1447" selection-start-column="22" selection-end-line="1447" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="61" column="1336" selection-start-line="61" selection-start-column="1336" selection-end-line="61" selection-end-column="1336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/良食速运项目页面/list.html" />
+    <entry file="file://$PROJECT_DIR$/food/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jiesuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="204" column="49" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/food_rc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/food_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7829">
+          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/food_hx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/orderywc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/caidan1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3102">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="89" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="89" />
+          <folding>
+            <element signature="e#339#406#0#HTML" expanded="true" />
+            <element signature="e#864#890#0#HTML" expanded="true" />
+            <element signature="e#1096#1164#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/carts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dizhi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishe/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishe/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

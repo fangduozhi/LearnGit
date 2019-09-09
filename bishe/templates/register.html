@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>注册界面</title>
+		<link rel="stylesheet" href="/static/reset.css" />
+		<link rel="stylesheet" href="/static/common.css" />
+		<link rel="stylesheet" href="/static/font-awesome.min.css" />
+        <script type="text/javascript" src="/static/jqu.min.js"></script>
+</head>
+	<body>
+		<div class="wrap login_wrap" >
+			<div class="content">
+				
+				<div class="logo"></div>
+				
+				<div class="login_box">	
+					
+					<div class="login_form">
+						<div class="login_title">
+							注册
+						</div>
+						<form action="/addUser/" method="post" onsubmit="return register();">
+                            <div >
+                            {% if message %}
+                                <div>{{ message }}</div>
+                            {% endif %}
+                            </div>
+                            <div>
+                                {% if mport %}
+                                <div>{{ mport }}</div>
+                                {% endif %}
+                            </div>
+
+							{% csrf_token %}
+							<div class="form_text_ipt">
+								<input id="uname" name="uname" type="text"  placeholder="用户名" onblur="checkuname(this.value)">
+                                <span  id="unameSpan"></span>
+							</div>
+
+							<div class="form_text_ipt">
+								<input name="upassword" type="password" placeholder="密码" id="uword" onblur="checkuword(this.value)">
+                                <span  id="uwordSpan"></span>
+							</div>
+{#							<div class="ececk_warning"><span>密码不能为空</span></div>#}
+							<div class="form_text_ipt">
+								<input name="repassword" type="password" placeholder="重复密码">
+							</div>
+
+							<div class="form_text_ipt">
+								<input name="uphone" type="text" placeholder="手机号" class="inphone">
+							</div>
+							<div class="ececk_warning"><span>手机号不能为空</span></div>
+							
+							<div class="form_btn">
+								<button type="submit" onclick="javascript:window.location.href='addUser/'">注册</button>
+							</div>
+							<div class="form_reg_btn">
+								<span>已有帐号？</span><a href="{% url 'lg' %}">马上登录</a>
+							</div>
+                            <div class="form_reg_btn">
+                                <span>管理员入口 </span><a href="http://127.0.0.1:8000/admin">管理员登录</a>
+                            </div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="/static/common.js" ></script>
+		<div style="text-align:center;">
+</div>
+
+    <script>
+
+        function checkuname(txt) {
+            var reg = /^\w{3,8}$/gi;
+            if (txt.length == 0) {
+                $('#unameSpan').html('用户名不能为空')
+                $('#unameSpan').css('color', 'red');
+
+            } else if (reg.test(txt)) {
+                $.get('/checkuname/', {'uname': txt}, function (result) {
+                    if (result == 'None') {
+                        $('#unameSpan').html('该用户名可以使用')
+                        $('#unameSpan').css('color', 'green');
+                    } else {
+                        $('#unameSpan').html('此用户名太受欢迎,请更换一个')
+                        $('#unameSpan').css('color', 'red');
+                    }
+                })
+            } else {
+                $('#unameSpan').html('用户名格式不正确')
+                $('#unameSpan').css('color', 'red');
+            }
+            console.info($('#upassword').parent().css())
+            $('#upassword').parent().css('display','block')
+        }
+
+        function checkuword(tt) {
+            var patrn=/^(\w){6,12}$/;
+            if (tt.length == 0) {
+                $('#uwordSpan').html('密码不能为空')
+                $('#uwordSpan').css('color', 'red');
+            }
+            else if(patrn.test(tt)){
+                $('#uwordSpan').html('此密码符合规范可以使用')
+                $('#uwordSpan').css('color', 'green');
+            }
+
+        }
+
+
+    </script>
+	</body>
+</html>
+
